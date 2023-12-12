@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Silkscreen');
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: ellipse;
+  border-style: double;
+  border-color: rgb(150, 0, 50);
+}
+h1 {
+  font-family: Silkscreen;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(150, 0, 50);
+  font-size: 20px;
+  border-style: inset;
+  border-width: 10px;
+  border-color: rgb(120, 0, 50);
+  width: 300px;
+  transition-duration: 0.2s;
+}
+
+h2 {
+  font-family: Silkscreen;
+  color: rgb(150,0,50)
+}
+/*
+Buttons for artist selections
+*/
+.penButtons{
+  font-family: Silkscreen;
+  padding: 20px;
+  background-color: rgb(150, 0, 50);
+  font-size: 20px;
+  border-width: 10px;
+  border-color: rgb(120, 0, 50);
+  transition-duration: 0.2s;
+}
+.penButtons:hover{
+  background-color: rgb(150, 0, 50);
+}
+.penButtons:active{
+  background-color: rgb(120, 0, 50);
+}
+
+
+
+.sideButton1{
+  font-family: Silkscreen;
+  position: absolute;
+  top: 20%;
+  right: 75%;
+  width: 10%;
+  padding: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: rgb(150, 0, 50);
+  font-size: 20px;
+  border-width: 10px;
+  border-color: rgb(120, 0, 50);
+  transition-duration: 0.2s;
+}
+.sideButton1:hover{
+  background-color: rgb(150, 0, 50);
+}
+.sideButton1:active{
+  background-color: rgb(120, 0, 50);
+}
+
+
+
+.sideButton2{
+  font-family: Silkscreen;
+  position: absolute;
+  top: 20%;
+  left: 75%;
+  width: 10%;
+  padding: 10px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: rgb(150, 0, 50);
+  font-size: 20px;
+  border-width: 10px;
+  border-color: rgb(120, 0, 50);
+  transition-duration: 0.2s;
+}
+.sideButton2:hover{
+  background-color: rgb(150, 0, 50);
+}
+.sideButton2:active{
+  background-color: rgb(120, 0, 50);
+}
+
